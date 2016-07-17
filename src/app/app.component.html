@@ -1,4 +1,2 @@
-<h1>
-  {{title}}
-</h1>
-<p>this is a sample text</p>
+<se-login *ngIf="!loggedIn"></se-login>
+<se-dashboard *ngIf="loggedIn"></se-dashboard>

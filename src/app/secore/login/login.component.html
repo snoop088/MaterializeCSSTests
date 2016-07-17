@@ -1,0 +1,33 @@
+<div class="loginContainer">
+  <h5 class="green-text">PADDY POWER BETFAIR<br>BANNER MANAGER</h5>
+
+  <form materialize #f="ngForm" class="col s12">
+    <div class="row">
+      <div class="input-field col s12">
+          <input 
+            id="se_username" 
+            name="se_username" 
+            type="text" required
+            ngModel>
+          <label for="se_username">User name</label>
+        </div>
+        <div class="input-field col s12">
+          <input 
+            id="se_password" 
+            name="se_password" 
+            type="password" required
+            ngModel>
+          <label for="se_password">Password</label>
+        </div>
+        <div class="input-field col s12 center-align">
+          <button class="btn waves-effect waves-light" type="submit" name="action">Enter
+            <i class="material-icons right">keyboard_arrow_right</i>
+          </button>
+        </div>
+    </div>
+  </form>
+</div>
+<div class="logoContainer">
+  <div class="poweredBy">powered by</div>
+  <img src="../../../img/logo-login.svg" alt="">
+</div>

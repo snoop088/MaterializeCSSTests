@@ -7,13 +7,18 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  "jquery": "vendor/jquery",
   "materialize": "vendor/materialize-css",
   "angular2-materialize": "vendor/angular2-materialize",
-  "jquery": "vendor/jquery"
+  
 };
 
 /** User packages configuration. */
 const packages: any = {
+  // 'jquery' : {
+  //   "main": "dist/jquery",
+  //   "defaultExtension": "js"
+  // },
   'materialize': {
     "format": "global",
     "main": "dist/js/materialize",
@@ -36,6 +41,7 @@ const barrels: string[] = [
   '@angular/compiler',
   '@angular/http',
   '@angular/router',
+  '@angular/forms',
   '@angular/platform-browser',
   '@angular/platform-browser-dynamic',
 
@@ -45,6 +51,8 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
+  'app/secore/login',
+  'app/secore/dashboard',
   /** @cli-barrel */
 ];
 
