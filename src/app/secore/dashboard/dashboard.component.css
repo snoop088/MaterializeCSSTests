@@ -1,0 +1,25 @@
+.dashboardContainer {
+    margin:10px;
+}
+nav.main-nav {
+    padding: 0px 10px;
+    background: white;
+    overflow: hidden;
+    height: auto;
+    line-height: 1em;
+}
+nav .side-nav-sw {
+    cursor: pointer;
+    float: left;
+}
+nav .logged-user {
+    width:100%;
+}
+nav .bbp-logo {
+    width: 150px;
+    height: auto;
+    margin:0 10px;
+}
+h6 {
+    font-weight: 700;
+}

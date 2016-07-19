@@ -1,3 +1,20 @@
-<p>
-  dashboard works!
-</p>
+<div class="dashboardContainer">
+  <nav materialize class="main-nav valign-wrapper">
+    <i class="material-icons green-text side-nav-sw" (click)="sideNavIn($event)">menu</i>
+    <img src="../../../img/bbp-logo.svg" width="120" height="24" class="bbp-logo">
+    <h6 class="green-text">
+      BANNER MANAGER
+    </h6>
+    <div class="logged-user green-text valign right-align">
+        Welcome {{_userName}} | 
+        <a href="#" class="green-text text-darken-3">sign out</a>
+    </div>
+    <se-side-nav [sideNavOut]="_sideNavOut" 
+      [navWidth]="240" 
+      (navOut)="sideNavOut($event)"
+      class="z-depth-2 grey lighten-2">
+    </se-side-nav>
+    
+  </nav>
+  
+</div>

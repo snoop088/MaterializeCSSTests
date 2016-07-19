@@ -12,5 +12,5 @@ import { DashboardComponent} from './secore/dashboard';
 })
 export class AppComponent {
   title = 'app works!';
-  loggedIn = false;
+  loggedIn = true;
 }

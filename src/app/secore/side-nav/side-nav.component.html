@@ -1,0 +1,13 @@
+
+<div class="se-side-nav" [style.width.px]="navWidth">
+  <ul class="se-menus green-text">
+    <li class="se-menu-item"><a href="#">1</a></li>
+    <li class="se-menu-item"><a href="#">2</a></li>
+    <li class="se-menu-item"><a href="#">3</a></li>
+    <li class="se-menu-item"><a href="#">4</a></li>
+  </ul>
+</div>
+<div *ngIf="!_sideNavOut" 
+  class="se-click-check" (click)="navOut.emit({e:$event})">
+</div>
+<div>{{_sideNavOut}}</div>

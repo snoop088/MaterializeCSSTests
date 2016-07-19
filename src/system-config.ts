@@ -53,6 +53,7 @@ const barrels: string[] = [
   'app/shared',
   'app/secore/login',
   'app/secore/dashboard',
+  'app/secore/side-nav',
   /** @cli-barrel */
 ];
 
